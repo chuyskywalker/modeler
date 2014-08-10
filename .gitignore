@@ -1,0 +1,4 @@
+model/go/client
+model/go/srv
+.vagrant
+.idea
