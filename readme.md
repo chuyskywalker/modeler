@@ -102,7 +102,8 @@ php php/client.php # End when satisfied
 _Add grains of salt, comes from my own machine, but should maintain 
 like ratios:_
 
-|| client -> srv || Per second (@10k) ||
+| client -> srv | Per second (@10k) |
+| ------------ | ---------------- |
 | `php -> php` | 1,294/s |
 | `go  -> php` |   915/s |
 | `php -> go ` |   872/s |
