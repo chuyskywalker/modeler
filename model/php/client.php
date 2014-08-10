@@ -1,15 +1,8 @@
 <?php
-/*
-* Hello World client
-* Connects REQ socket to tcp://localhost:5555
-* Sends "Hello" to server, expects "World" back
-* @author Ian Barber <ian(dot)barber(at)gmail(dot)com>
-*/
+
+echo "Making Requests\n";
 
 $context = new ZMQContext();
-
-// Socket to talk to server
-echo "Making Requests\n";
 $requester = new ZMQSocket($context, ZMQ::SOCKET_REQ);
 $requester->connect("tcp://localhost:5555");
 
